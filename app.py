@@ -11,5 +11,10 @@ def inicio():
 
 # --- FIN DEL ESPACIO ---
 
+@app.route('/info')
+def informacion():
+    return '<h1>Información del Proyecto</h1><p>Este es un proyecto para practicar el flujo de Git.</p><p>Aquí aprenderás a usar ramas, commits y push.</p>'
+
+
 if __name__ == '__main__':
     app.run(debug=True)
