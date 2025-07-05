@@ -6,6 +6,10 @@ app = Flask(__name__)
 def inicio():
     return '<h1>Página Principal del Proyecto</h1><p>¡Bienvenidos al proyecto colaborativo!</p>'
 
+@app.route('/despedida')
+def despedida():
+    return '<h1>¡Hasta la próxima!</h1><p>Gracias por visitar.</p>'
+
 # --- DEJA ESTE ESPACIO PARA TUS COMPAÑEROS ---
 
 
