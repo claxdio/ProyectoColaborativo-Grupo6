@@ -13,7 +13,3 @@ def inicio():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-@app.route('/preguntasyrespuestas')
-def preguntasyrespuestas():
- return '<h1>¡Hola!</h1><p>Esta es la sección de preguntas y respuestas.</p>'
